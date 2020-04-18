@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>如何使用 GitHub Pages 预览 HTML</title>
+  </head>
+
+  <body>
+    <div>
+      <article class="markdown-body entry-content" itemprop="text">
+        <h2>
+          <a
+            id="user-content-如何使用-github-pages-预览-html"
+            class="anchor"
+            aria-hidden="true"
+            href="#如何使用-github-pages-预览-html"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >如何使用 GitHub Pages 预览 HTML
+        </h2>
+        <p>看到这个标题，有些同学可能会问：</p>
+        <blockquote>
+          <p>
+            为什么我要用 GitHub Pages 来预览 HTML
+            文件呢？我直接用浏览器打开不就完事了吗？
+          </p>
+        </blockquote>
+        <p>
+          那作为全球最大的同性交友网站，GitHub 会告诉你，来我这预览 HTML
+          有什么好处呢：
+        </p>
+        <ol>
+          <li>
+            使用 GitHub Pages
+            不仅可以预览网页，还可以帮我们托管网页，而且是完全免费的；
+          </li>
+          <li>支持静态脚本，而且自带主题可供我们选择；</li>
+          <li>可以绑定自己的域名；如何使用 GitHub Pages 预览 HTML</li>
+          <li>
+            除了预览之外，我们还可以托管自己的博客站，给自己搭建一个舒适的写博客的环境，不用折腾服务器、域名啥的。
+          </li>
+          <li>其他额外好处任君探索……</li>
+        </ol>
+        <p>
+          那接下来我们就来看看如何使用 GitHub Pages 实现一个简单的 HTML
+          网页的预览吧~
+        </p>
+        <h3>
+          <a
+            id="user-content-step1-将本地的-html-代码仓库上传到-github"
+            class="anchor"
+            aria-hidden="true"
+            href="#step1-将本地的-html-代码仓库上传到-github"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >Step1 将本地的 html 代码仓库上传到 Github
+        </h3>
+        <h4>
+          <a
+            id="user-content-11-在-github-上新建一个仓库"
+            class="anchor"
+            aria-hidden="true"
+            href="#11-在-github-上新建一个仓库"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >1.1 在 GitHub 上新建一个仓库
+        </h4>
+        <p>
+          <a
+            target="_top"
+            rel="noopener noreferrer"
+            href="https://camo.githubusercontent.com/3463087d8890af98b72c3438ccf7935dcd76f6c5/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d613065306632653066623962343031372e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+            ><img
+              src="https://camo.githubusercontent.com/3463087d8890af98b72c3438ccf7935dcd76f6c5/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d613065306632653066623962343031372e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+              alt="newrepo.png"
+              data-canonical-src="https://upload-images.jianshu.io/upload_images/6063788-a0e0f2e0fb9b4017.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+              style="max-width: 100%;"
+          /></a>
+        </p>
+        <p>这里我的仓库名为 demo，然后直接点击创建仓库（什么也不要勾选）</p>
+        <h4>
+          <a
+            id="user-content-12-上传仓库到-github"
+            class="anchor"
+            aria-hidden="true"
+            href="#12-上传仓库到-github"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >1.2 上传仓库到 GitHub
+        </h4>
+        <p>
+          这里使用命令行将本地仓库 push 到 GitHub 的仓库中
+          <a
+            target="_top"
+            rel="noopener noreferrer"
+            href="https://camo.githubusercontent.com/1be66afc84be107b5f8c84267a4d01f87be39732/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d363931326232393337383934303765342e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+            ><img
+              src="https://camo.githubusercontent.com/1be66afc84be107b5f8c84267a4d01f87be39732/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d363931326232393337383934303765342e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+              alt="cmd.png"
+              data-canonical-src="https://upload-images.jianshu.io/upload_images/6063788-6912b293789407e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+              style="max-width: 100%;"
+          /></a>
+          <a
+            target="_top"
+            rel="noopener noreferrer"
+            href="https://camo.githubusercontent.com/927abaaaab3d8ad11e7d5d5d303b760afd570fe4/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d326236656639646361393663373137352e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+            ><img
+              src="https://camo.githubusercontent.com/927abaaaab3d8ad11e7d5d5d303b760afd570fe4/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d326236656639646361393663373137352e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+              alt="cmd2.png"
+              data-canonical-src="https://upload-images.jianshu.io/upload_images/6063788-2b6ef9dca96c7175.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+              style="max-width: 100%;"
+          /></a>
+        </p>
+        <h3>
+          <a
+            id="user-content-step2-设置-settings"
+            class="anchor"
+            aria-hidden="true"
+            href="#step2-设置-settings"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >Step2 设置 settings
+        </h3>
+        <h4>
+          <a
+            id="user-content-demo-仓库设置"
+            class="anchor"
+            aria-hidden="true"
+            href="#demo-仓库设置"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >demo 仓库设置
+        </h4>
+        <ul>
+          <li>
+            <p>
+              进入 Github 的 demo 仓库中，点击右上方的 settings
+              <a
+                target="_top"
+                rel="noopener noreferrer"
+                href="https://camo.githubusercontent.com/a849ffa521cad5c4d1f1cc771b9113d80a2cffb4/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d313333313239306663666462626236652e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+                ><img
+                  src="https://camo.githubusercontent.com/a849ffa521cad5c4d1f1cc771b9113d80a2cffb4/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d313333313239306663666462626236652e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+                  alt="settings.png"
+                  data-canonical-src="https://upload-images.jianshu.io/upload_images/6063788-1331290fcfdbbb6e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                  style="max-width: 100%;"
+              /></a>
+            </p>
+          </li>
+          <li>
+            <p>
+              下拉至 GitHub Pages，将 Source 改为 master branch
+              <a
+                target="_top"
+                rel="noopener noreferrer"
+                href="https://camo.githubusercontent.com/c73734e3c2c3f71a6fd9625e0a4c8484c0e20d09/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d333136333965303961343363653838332e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+                ><img
+                  src="https://camo.githubusercontent.com/c73734e3c2c3f71a6fd9625e0a4c8484c0e20d09/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d333136333965303961343363653838332e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+                  alt="source.png"
+                  data-canonical-src="https://upload-images.jianshu.io/upload_images/6063788-31639e09a43ce883.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                  style="max-width: 100%;"
+              /></a>
+            </p>
+          </li>
+        </ul>
+        <h3>
+          <a
+            id="user-content-step3-预览网页"
+            class="anchor"
+            aria-hidden="true"
+            href="#step3-预览网页"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >Step3 预览网页
+        </h3>
+        <ul>
+          <li>
+            等待页面刷新后，会自动生成一个网址
+            <a
+              target="_top"
+              rel="noopener noreferrer"
+              href="https://camo.githubusercontent.com/873b70de89313e057bbbf47c86ef54fc0093edc8/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d353830383931636630666361383332612e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+              ><img
+                src="https://camo.githubusercontent.com/873b70de89313e057bbbf47c86ef54fc0093edc8/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d353830383931636630666361383332612e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+                alt="ready.png"
+                data-canonical-src="https://upload-images.jianshu.io/upload_images/6063788-580891cf0fca832a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                style="max-width: 100%;"
+            /></a>
+          </li>
+          <li>
+            点击这个网址，就会看到我们的网页可以打开啦。快去跟你的小伙伴分享你做的网页吧~
+            <a
+              target="_top"
+              rel="noopener noreferrer"
+              href="https://camo.githubusercontent.com/2ecf06743538325362e796650f86ffa3d7bf834d/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d383537353566363239623134366338662e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+              ><img
+                src="https://camo.githubusercontent.com/2ecf06743538325362e796650f86ffa3d7bf834d/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f363036333738382d383537353566363239623134366338662e706e673f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f31323430"
+                alt="preview.png"
+                data-canonical-src="https://upload-images.jianshu.io/upload_images/6063788-85755f629b146c8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"
+                style="max-width: 100%;"
+            /></a>
+          </li>
+        </ul>
+        <h3>
+          <a
+            id="user-content-后记"
+            class="anchor"
+            aria-hidden="true"
+            href="#后记"
+            ><svg
+              class="octicon octicon-link"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"
+              ></path></svg></a
+          >后记
+        </h3>
+        <p>
+          本文是<del>简陋</del>简化版的用 GitHub Pages
+          预览网页的操作指北，正规军操作指南请期待博主的后续文章，或者直接食用原汁原味的
+          GitHub<a
+            href="https://help.github.com/cn/github/working-with-github-pages"
+            >帮助文档</a
+          >。
+        </p>
+      </article>
+    </div>
+  </body>
+</html>
